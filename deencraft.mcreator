@@ -128,6 +128,66 @@
         ]
       },
       "path": "~/halalharamtooltips"
+    },
+    {
+      "name": "Olive",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olive",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deencraft/item/OliveItem.java",
+          "src/main/resources/assets/deencraft/models/item/olive.json",
+          "src/main/resources/assets/deencraft/items/olive.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "Grape",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grape",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/deencraft/models/item/grape.json",
+          "src/main/java/net/mcreator/deencraft/item/GrapeItem.java",
+          "src/main/resources/assets/deencraft/items/grape.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "Fig",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fig",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/deencraft/models/item/fig.json",
+          "src/main/java/net/mcreator/deencraft/item/FigItem.java",
+          "src/main/resources/assets/deencraft/items/fig.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "Pomegranate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pomegranate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deencraft/item/PomegranateItem.java",
+          "src/main/resources/assets/deencraft/items/pomegranate.json",
+          "src/main/resources/assets/deencraft/models/item/pomegranate.json"
+        ]
+      },
+      "path": "~/items"
     }
   ],
   "variable_elements": [],
@@ -136,7 +196,11 @@
     "ITEMS:mod:halal_food": [
       "CUSTOM:Date",
       "Items.APPLE",
-      "Items.CARROT"
+      "Items.CARROT",
+      "CUSTOM:Olive",
+      "CUSTOM:Grape",
+      "CUSTOM:Fig",
+      "CUSTOM:Pomegranate"
     ],
     "ITEMS:mod:haram_food": [
       "Items.PORKCHOP",
@@ -157,7 +221,11 @@
       "item.deencraft.date": "Date",
       "item_group.deencraft.deen_craft": "Deen Craft",
       "toasts.deencraft.datesweet.description": "Is it good ?",
-      "toasts.deencraft.datesweet.title": "Sweet !"
+      "toasts.deencraft.datesweet.title": "Sweet !",
+      "item.deencraft.olive": "Olive",
+      "item.deencraft.grape": "Grape",
+      "item.deencraft.fig": "Fig",
+      "item.deencraft.pomegranate": "Pomegranate"
     }
   },
   "metadata": {

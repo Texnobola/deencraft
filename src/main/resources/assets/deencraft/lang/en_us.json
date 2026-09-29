@@ -4,5 +4,9 @@
   "item.deencraft.date": "Date",
   "item_group.deencraft.deen_craft": "Deen Craft",
   "toasts.deencraft.datesweet.description": "Is it good ?",
-  "toasts.deencraft.datesweet.title": "Sweet !"
+  "toasts.deencraft.datesweet.title": "Sweet !",
+  "item.deencraft.olive": "Olive",
+  "item.deencraft.grape": "Grape",
+  "item.deencraft.fig": "Fig",
+  "item.deencraft.pomegranate": "Pomegranate"
 }

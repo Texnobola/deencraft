@@ -1,8 +1,12 @@
 {
   "replace": false,
   "values": [
+    "deencraft:olive",
     "deencraft:date",
+    "deencraft:grape",
     "minecraft:carrot",
+    "deencraft:pomegranate",
+    "deencraft:fig",
     "minecraft:apple"
   ]
 }
