@@ -1,4 +1,8 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "minecraft:pufferfish",
+    "minecraft:suspicious_stew",
+    "minecraft:tropical_fish"
+  ]
 }

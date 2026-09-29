@@ -35,5 +35,15 @@ public class HalalharamcheckerProcedure {
 				tooltip.add(Component.literal("Status: Halal"));
 			}
 		}
+		if (itemstack.is(ItemTags.create(Identifier.parse("deencraft:haram_food")))) {
+			if (Minecraft.getInstance().hasShiftDown()) {
+				tooltip.add(Component.literal("Status: Haram"));
+			}
+		}
+		if (itemstack.is(ItemTags.create(Identifier.parse("deencraft:mashbooh_food")))) {
+			if (Minecraft.getInstance().hasShiftDown()) {
+				tooltip.add(Component.literal("Status: Mashbooh"));
+			}
+		}
 	}
 }

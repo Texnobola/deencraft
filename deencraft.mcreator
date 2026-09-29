@@ -143,7 +143,11 @@
       "Items.COOKED_PORKCHOP",
       "Items.ROTTEN_FLESH"
     ],
-    "ITEMS:mod:mashbooh_food": []
+    "ITEMS:mod:mashbooh_food": [
+      "Items.SUSPICIOUS_STEW",
+      "Items.FISH#3",
+      "Items.FISH#2"
+    ]
   },
   "tab_element_order": {},
   "language_map": {
