@@ -36,7 +36,8 @@
       "registry_name": "deen_craft",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/extras"
     },
     {
       "name": "Datedrop",
@@ -106,7 +107,8 @@
         "files": [
           "src/main/java/net/mcreator/deencraft/client/toasts/DatesweetToast.java"
         ]
-      }
+      },
+      "path": "~/popups"
     },
     {
       "name": "Popupdates",
@@ -124,7 +126,8 @@
         "files": [
           "src/main/java/net/mcreator/deencraft/procedures/PopupdatesProcedure.java"
         ]
-      }
+      },
+      "path": "~/popups/procedures"
     }
   ],
   "variable_elements": [],
@@ -178,6 +181,19 @@
       },
       {
         "name": "halalharamtooltips",
+        "children": []
+      },
+      {
+        "name": "popups",
+        "children": [
+          {
+            "name": "procedures",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "extras",
         "children": []
       }
     ]
