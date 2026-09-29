@@ -17,7 +17,7 @@ import javax.annotation.Nullable;
 import java.util.List;
 
 @EventBusSubscriber(value = Dist.CLIENT)
-public class DatecheckProcedure {
+public class HalalharamcheckerProcedure {
 	@SubscribeEvent
 	public static void onItemTooltip(ItemTooltipEvent event) {
 		execute(event, event.getItemStack(), event.getToolTip());
