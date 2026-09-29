@@ -1,6 +1,6 @@
 {
   "wants": {
-    "id": "deencraft:pomegranate"
+    "id": "minecraft:emerald"
   },
   "gives": {
     "id": "deencraft:pomegranate",

@@ -65,7 +65,7 @@
         "priceMultiplier": 0.05
       },
       {
-        "price1": "CUSTOM:Pomegranate",
+        "price1": "Items.EMERALD",
         "countPrice1": 1,
         "price2": "",
         "countPrice2": 1,
