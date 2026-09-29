@@ -5,6 +5,6 @@ import net.minecraft.world.food.FoodProperties;
 
 public class PomegranateItem extends Item {
 	public PomegranateItem(Item.Properties properties) {
-		super(properties.food((new FoodProperties.Builder()).nutrition(4).saturationModifier(2.4f).build()));
+		super(properties.food((new FoodProperties.Builder()).nutrition(4).saturationModifier(0.3f).build()));
 	}
 }

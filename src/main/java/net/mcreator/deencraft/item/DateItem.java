@@ -5,6 +5,6 @@ import net.minecraft.world.food.FoodProperties;
 
 public class DateItem extends Item {
 	public DateItem(Item.Properties properties) {
-		super(properties.stacksTo(16).food((new FoodProperties.Builder()).nutrition(4).saturationModifier(2f).alwaysEdible().build()));
+		super(properties.stacksTo(16).food((new FoodProperties.Builder()).nutrition(4).saturationModifier(0.3f).alwaysEdible().build()));
 	}
 }
