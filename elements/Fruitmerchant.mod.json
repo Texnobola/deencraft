@@ -1,0 +1,12 @@
+{
+  "_fv": 89,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Fruit merchant",
+    "pointOfInterest": "Blocks.CRAFTING_TABLE",
+    "actionSound": "entity.villager.yes",
+    "hat": "None",
+    "professionTextureFile": "fruit_merchant_texture.png",
+    "zombifiedProfessionTextureFile": "fruit_merchant_texture.png"
+  }
+}

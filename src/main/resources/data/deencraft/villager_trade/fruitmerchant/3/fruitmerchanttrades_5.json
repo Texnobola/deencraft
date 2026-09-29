@@ -1,0 +1,12 @@
+{
+  "wants": {
+    "id": "deencraft:pomegranate"
+  },
+  "gives": {
+    "id": "deencraft:pomegranate",
+    "count": 3
+  },
+  "max_uses": 10,
+  "xp": 5,
+  "reputation_discount": 0.05
+}

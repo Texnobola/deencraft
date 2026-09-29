@@ -1,0 +1,81 @@
+{
+  "_fv": 89,
+  "_type": "villagertrade",
+  "definition": {
+    "villagerProfession": "CUSTOM:Fruitmerchant",
+    "trades": [
+      {
+        "price1": "Items.EMERALD",
+        "countPrice1": 1,
+        "price2": "",
+        "countPrice2": 1,
+        "offer": "CUSTOM:Date",
+        "countOffer": 3,
+        "level": 1,
+        "maxTrades": 10,
+        "xp": 5,
+        "priceMultiplier": 0.05
+      },
+      {
+        "price1": "Items.EMERALD",
+        "countPrice1": 1,
+        "price2": "",
+        "countPrice2": 1,
+        "offer": "Items.APPLE",
+        "countOffer": 3,
+        "level": 1,
+        "maxTrades": 10,
+        "xp": 5,
+        "priceMultiplier": 0.05
+      },
+      {
+        "price1": "Items.EMERALD",
+        "countPrice1": 1,
+        "price2": "",
+        "countPrice2": 1,
+        "offer": "CUSTOM:Olive",
+        "countOffer": 3,
+        "level": 2,
+        "maxTrades": 10,
+        "xp": 5,
+        "priceMultiplier": 0.05
+      },
+      {
+        "price1": "Items.EMERALD",
+        "countPrice1": 1,
+        "price2": "",
+        "countPrice2": 1,
+        "offer": "CUSTOM:Grape",
+        "countOffer": 3,
+        "level": 2,
+        "maxTrades": 10,
+        "xp": 5,
+        "priceMultiplier": 0.05
+      },
+      {
+        "price1": "Items.EMERALD",
+        "countPrice1": 1,
+        "price2": "",
+        "countPrice2": 1,
+        "offer": "CUSTOM:Fig",
+        "countOffer": 3,
+        "level": 3,
+        "maxTrades": 10,
+        "xp": 5,
+        "priceMultiplier": 0.05
+      },
+      {
+        "price1": "CUSTOM:Pomegranate",
+        "countPrice1": 1,
+        "price2": "",
+        "countPrice2": 1,
+        "offer": "CUSTOM:Pomegranate",
+        "countOffer": 3,
+        "level": 3,
+        "maxTrades": 10,
+        "xp": 5,
+        "priceMultiplier": 0.05
+      }
+    ]
+  }
+}

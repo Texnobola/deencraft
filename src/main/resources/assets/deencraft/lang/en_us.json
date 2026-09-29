@@ -8,5 +8,6 @@
   "item.deencraft.olive": "Olive",
   "item.deencraft.grape": "Grape",
   "item.deencraft.fig": "Fig",
-  "item.deencraft.pomegranate": "Pomegranate"
+  "item.deencraft.pomegranate": "Pomegranate",
+  "entity.villager.deencraft.fruitmerchant": "Fruit merchant"
 }

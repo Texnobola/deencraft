@@ -188,6 +188,41 @@
         ]
       },
       "path": "~/items"
+    },
+    {
+      "name": "Fruitmerchant",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fruitmerchant",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/deencraft/trade_set/fruitmerchant/level_4.json",
+          "src/main/resources/data/deencraft/trade_set/fruitmerchant/level_1.json",
+          "src/main/resources/data/deencraft/trade_set/fruitmerchant/level_3.json",
+          "src/main/resources/data/deencraft/trade_set/fruitmerchant/level_2.json",
+          "src/main/resources/data/deencraft/trade_set/fruitmerchant/level_5.json"
+        ]
+      },
+      "path": "~/extras"
+    },
+    {
+      "name": "Fruitmerchanttrades",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fruitmerchanttrades",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/deencraft/villager_trade/fruitmerchant/1/fruitmerchanttrades_1.json",
+          "src/main/resources/data/deencraft/villager_trade/fruitmerchant/2/fruitmerchanttrades_2.json",
+          "src/main/resources/data/deencraft/villager_trade/fruitmerchant/2/fruitmerchanttrades_3.json",
+          "src/main/resources/data/deencraft/villager_trade/fruitmerchant/3/fruitmerchanttrades_5.json",
+          "src/main/resources/data/deencraft/villager_trade/fruitmerchant/1/fruitmerchanttrades_0.json",
+          "src/main/resources/data/deencraft/villager_trade/fruitmerchant/3/fruitmerchanttrades_4.json"
+        ]
+      },
+      "path": "~/extras"
     }
   ],
   "variable_elements": [],
@@ -211,7 +246,24 @@
       "Items.SUSPICIOUS_STEW",
       "Items.FISH#3",
       "Items.FISH#2"
-    ]
+    ],
+    "POINTS_OF_INTEREST:minecraft:acquirable_job_site": [
+      "~Fruitmerchant@CUSTOM:Fruitmerchant"
+    ],
+    "VILLAGER_TRADES:deencraft:fruitmerchant/level_1": [
+      "~Fruitmerchanttrades@fruitmerchanttrades_1",
+      "~Fruitmerchanttrades@fruitmerchanttrades_0"
+    ],
+    "VILLAGER_TRADES:deencraft:fruitmerchant/level_2": [
+      "~Fruitmerchanttrades@fruitmerchanttrades_3",
+      "~Fruitmerchanttrades@fruitmerchanttrades_2"
+    ],
+    "VILLAGER_TRADES:deencraft:fruitmerchant/level_3": [
+      "~Fruitmerchanttrades@fruitmerchanttrades_5",
+      "~Fruitmerchanttrades@fruitmerchanttrades_4"
+    ],
+    "VILLAGER_TRADES:deencraft:fruitmerchant/level_4": [],
+    "VILLAGER_TRADES:deencraft:fruitmerchant/level_5": []
   },
   "tab_element_order": {},
   "language_map": {
@@ -225,11 +277,13 @@
       "item.deencraft.olive": "Olive",
       "item.deencraft.grape": "Grape",
       "item.deencraft.fig": "Fig",
-      "item.deencraft.pomegranate": "Pomegranate"
+      "item.deencraft.pomegranate": "Pomegranate",
+      "entity.villager.deencraft.fruitmerchant": "Fruit merchant"
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/deencraft/init/DeencraftModVillagerProfessions.java",
       "src/main/java/net/mcreator/deencraft/init/DeencraftModItems.java",
       "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/deencraft/mixin/EntityRenderDispatcherMixin.java",

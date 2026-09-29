@@ -27,6 +27,7 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.registries.BuiltInRegistries;
 
+import net.mcreator.deencraft.init.DeencraftModVillagerProfessions;
 import net.mcreator.deencraft.init.DeencraftModTabs;
 import net.mcreator.deencraft.init.DeencraftModItems;
 
@@ -58,6 +59,7 @@ public class DeencraftMod {
 		modEventBus.addListener(this::registerNetworking);
 		DeencraftModItems.REGISTRY.register(modEventBus);
 		DeencraftModTabs.REGISTRY.register(modEventBus);
+		DeencraftModVillagerProfessions.PROFESSIONS.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}
