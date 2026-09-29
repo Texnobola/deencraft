@@ -1,0 +1,206 @@
+{
+  "mod_elements": [
+    {
+      "name": "WelcomeBrother",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "welcome_brother",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/deencraft/advancement/welcome_brother.json"
+        ]
+      },
+      "path": "~/advancements"
+    },
+    {
+      "name": "Date",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "date",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deencraft/item/DateItem.java",
+          "src/main/resources/assets/deencraft/models/item/date.json",
+          "src/main/resources/assets/deencraft/items/date.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "DeenCraft",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deen_craft",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Datedrop",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "datedrop",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/deencraft/procedures/DatedropProcedure.java"
+        ]
+      },
+      "path": "~/Dropchanceprocedures"
+    },
+    {
+      "name": "Datecheck",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "datecheck",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "tooltip",
+            "type": "tooltip"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/deencraft/procedures/DatecheckProcedure.java"
+        ]
+      },
+      "path": "~/halalharamtooltips"
+    },
+    {
+      "name": "Datesweet",
+      "type": "toast",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "datesweet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/deencraft/client/toasts/DatesweetToast.java"
+        ]
+      }
+    },
+    {
+      "name": "Popupdates",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "popupdates",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/deencraft/procedures/PopupdatesProcedure.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "advancements.welcome_brother.title": "Welcome Brother",
+      "advancements.welcome_brother.descr": "Welcome !",
+      "item.deencraft.date": "Date",
+      "item_group.deencraft.deen_craft": "Deen Craft",
+      "toasts.deencraft.datesweet.description": "Is it good ?",
+      "toasts.deencraft.datesweet.title": "Sweet !"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/deencraft/init/DeencraftModItems.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/deencraft/mixin/EntityRenderDispatcherMixin.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/deencraft/mixin/ItemInHandLayerMixin.java",
+      "src/main/java/net/mcreator/deencraft/init/DeencraftModTabs.java",
+      "src/main/java/net/mcreator/deencraft/network/PlayPlayerAnimationMessage.java",
+      "src/main/java/net/mcreator/deencraft/mixin/EntityRendererMixin.java",
+      "src/main/java/net/mcreator/deencraft/mixin/CameraAccessor.java",
+      "src/main/java/net/mcreator/deencraft/mixin/PlayerAnimationRendererMixin.java",
+      "src/main/java/net/mcreator/deencraft/mixin/LivingEntityRendererMixin.java",
+      "src/main/java/net/mcreator/deencraft/mixin/ItemInHandRendererMixin.java",
+      "src/main/java/net/mcreator/deencraft/mixin/PlayerAnimationMixin.java",
+      "src/main/java/net/mcreator/deencraft/DeencraftMod.java",
+      "src/main/java/net/mcreator/deencraft/mixin/LevelRendererMixin.java",
+      "src/main/java/net/mcreator/deencraft/DeencraftModPlayerAnimationAPI.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Dropchanceprocedures",
+        "children": []
+      },
+      {
+        "name": "advancements",
+        "children": []
+      },
+      {
+        "name": "items",
+        "children": []
+      },
+      {
+        "name": "halalharamtooltips",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "deencraft",
+    "modName": "DeenCraft",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "curios_api",
+      "geckolib",
+      "jei"
+    ],
+    "currentGenerator": "neoforge-26.1.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.deencraft"
+  },
+  "mcreatorVersion": 202600233518
+}

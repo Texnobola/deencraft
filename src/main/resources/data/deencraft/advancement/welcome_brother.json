@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:yellow_candle"
+    },
+    "title": {
+      "translate": "advancements.welcome_brother.title"
+    },
+    "description": {
+      "translate": "advancements.welcome_brother.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "welcome_brother_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:overworld"
+      }
+    }
+  },
+  "parent": "minecraft:adventure/adventuring_time"
+}

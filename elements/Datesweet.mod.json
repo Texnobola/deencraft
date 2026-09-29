@@ -1,0 +1,16 @@
+{
+  "_fv": 89,
+  "_type": "toast",
+  "definition": {
+    "title": "Sweet !",
+    "description": "Is it good ?",
+    "icon": "date_texture",
+    "background": "",
+    "durationTime": 5000,
+    "titleColor": {
+      "value": -3355648,
+      "falpha": 0.0
+    },
+    "drawShadows": false
+  }
+}
