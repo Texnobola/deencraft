@@ -132,7 +132,19 @@
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "ITEMS:mod:halal_food": [
+      "CUSTOM:Date",
+      "Items.APPLE",
+      "Items.CARROT"
+    ],
+    "ITEMS:mod:haram_food": [
+      "Items.PORKCHOP",
+      "Items.COOKED_PORKCHOP",
+      "Items.ROTTEN_FLESH"
+    ],
+    "ITEMS:mod:mashbooh_food": []
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
@@ -201,10 +213,11 @@
   "workspaceSettings": {
     "modid": "deencraft",
     "modName": "DeenCraft",
-    "version": "1.0.0",
+    "version": "0.0.1",
+    "description": "Good mod for good brother",
     "author": "MCreator",
     "websiteURL": "https://mcreator.net",
-    "license": "Not specified",
+    "license": "Custom license",
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
